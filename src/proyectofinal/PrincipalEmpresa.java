@@ -90,6 +90,10 @@ public class PrincipalEmpresa {
 																					complejos[0].pedirInfoComplejo();
 																					break;
 																			 case 2:
+																			 /**
+																			 * El complejo siempre va a estar en la posicion 0, deberiamos hacer un ciclo for(i=0,i<complejos.length;i++)
+																			 */
+																			 
 																					if (complejos[0] != null) {
 																						 cp.ingresarSala();
 //                                                            idSala = Integer.parseInt(JOptionPane.showInputDialog("Ingrese id de la sala"));

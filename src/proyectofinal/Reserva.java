@@ -19,7 +19,10 @@ public class Reserva {
 	 double precio;
 	 int calificacion, numeroSala;
 	 LocalDate fechaVenta = LocalDate.now();
-	 LocalTime horaFuncion = LocalTime.now();
+	 LocalTime horaFuncion = LocalTime.now(); 
+	/**
+	 * La hora funcion deberia pedirse en los datos de la programación
+	 */
 
 	 /* Método constructor que lo único que hace es inicializar los valores de los atrubutos
 		@author José Manuel Quintero Rodriguez*/
